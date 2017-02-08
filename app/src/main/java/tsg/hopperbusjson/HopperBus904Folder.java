@@ -1,18 +1,17 @@
 package tsg.hopperbusjson;
 
 /**
- * Created by terrelsimeongordon on 04/04/16.
+ * Created by terrelsimeongordon on 08/02/2017.
  */
-import android.util.Log;
 
 public class HopperBus904Folder {
-   private String busCode;
+    private String busCode;
     private String busLocation;
     private String busTime;
     private int udateColour;
 
     public void setBusCode(String busCode){
-this.busCode=busCode;
+        this.busCode=busCode;
     }
 
     public String getBusCode( ){

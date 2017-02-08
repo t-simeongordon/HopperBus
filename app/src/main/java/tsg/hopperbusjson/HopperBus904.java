@@ -1,7 +1,6 @@
 package tsg.hopperbusjson;
 
 import android.app.ProgressDialog;
-import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -14,7 +13,6 @@ import android.widget.Toast;
 
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
-import org.joda.time.format.DateTimeFormatter;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -24,7 +22,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 //  http://stackoverflow.com/questions/24572562/android-how-to-iterate-multiple-json-object-arrays-in-the-same-file
 
@@ -104,7 +101,7 @@ List<JSONArray> term_time= null;
 
             }
         },  1000 );
-
+        git status
 //        if(s1!=null) {
 //            urlString = "https://zymb.eu/api/v1/employee/skill/"+s1;
 //
@@ -238,6 +235,7 @@ List<JSONArray> term_time= null;
 //
 //    updatedTime.add(colourCount);
 //}
+                //TODO (1) implement navigation here
                     //get current time format into date type
                     SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
                     Date ttime = new Date();
@@ -446,6 +444,7 @@ updatedTime.add(1);
                       Log.e("check LIST ", "term_time2 ******* " + term_time_schedule_select2);
                       */
                  }
+                 //TO
                  else {
                      mProgressDialog.dismiss();
 
